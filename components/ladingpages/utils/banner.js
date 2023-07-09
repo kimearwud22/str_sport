@@ -1,40 +1,33 @@
 import React from "react";
 
+
 export default function Banner() {
   return (
-    <div>
-      <div
-        id="myCarousel"
-        className="carousel slide carousel-fade"
-        data-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <div className="mask flex-center">
-              <div className="container">
-                <div className="row align-items-center" style={{marginTop:"135px"}}>
-                  <div className="col-md-7 col-12 order-md-1 order-2">
-                    <h4>STR-Sport</h4>
-                    <p>
-                      Kami menyediakan berbagai macam produk skincare, bodycare, makeup, dan haircare yang terjamin keasliannya.
-                    </p>
-                    <br /> <a href="#">Selengkapnya</a>
-                  </div>
-                  <div className="col-md-5 col-12 order-md-2 order-1">
-                    <img
-                      src="/dist/img/banner/banner-2-bg.jpg"
-                      className="mx-auto"
-                      alt="slide"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
+    <div id="container">
+        <div id="image">
+            <img src="/dist/img/banner/banner.png" alt="football player png"/>
         </div>
-       
-      </div>
+
+
+        <div id="content">
+            <h2>STR SPORT</h2>
+            <h4>TRAINER</h4>
+        </div>
+
+        <div id="icons">
+            <a href="#"><i className="fab fa-facebook-f"></i></a>
+            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="#"><i className="fab fa-youtube"></i></a>
+            <a href="#"><i className="fab fa-twitter"></i></a>
+        </div>
+
+        <div id="pagination">
+            <a href="#"><i className="fas fa-angle-left"></i></a>
+            <a href="#"><i className="fas fa-angle-right"></i></a>
+        </div>
+
+        <div id="line1"></div>
+        <div id="line2"></div>
     </div>
   );
 }

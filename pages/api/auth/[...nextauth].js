@@ -10,5 +10,10 @@ export default NextAuth({
     }),
     // ...add more providers here
   ],
+  session: {
+    jwt: true,
+    //30 menit
+    maxAge: 30 * 60,
+  },
   secret: process.env.JWT_SECRET,
 });

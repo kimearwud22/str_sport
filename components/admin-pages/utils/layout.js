@@ -9,10 +9,10 @@ export default function Layout({ children }) {
       <Head>
         <meta charSet="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Admin | SF-SHOP</title>
+        <title>Admin | STR-Sport</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="../dist/img/logo/logo2.png" />
+        <link rel="shortcut icon" href="../dist/img/logo/str.PNG" />
       </Head>
       <div id="app">
         <div className="main-wrapper main-wrapper-1">

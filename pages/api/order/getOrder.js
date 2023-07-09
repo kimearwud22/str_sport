@@ -5,7 +5,7 @@ export default async function handler(req, res) {
   if (req.method === "GET") {
     const order = await prisma.order.findMany({
         where: {
-            id: parseInt(id),
+            id: id,
         },
         select: {
             id: true,
