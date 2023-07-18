@@ -13,26 +13,23 @@ export default function About() {
             </div>
             <div className="col-md-6">
               <div className="left-content">
-                <h4>Kami menyediakan Produk kecantikan terbaik</h4>
+                <h4>Kami menyediakan Produk Olahraga terbaik</h4>
                 <p>
                  Setiap produk yang kami distribusikan adalah produk yang terjamin keasliannya. Tidak hanya itu, kami juga menyediakan produk dengan harga yang terjangkau. Kami juga menyediakan produk yang sedang trend saat ini.
                 </p>
                 <ul className="featured-list">
                   <h4>Produk yang kami sediakan</h4>
                   <li>
-                    - Skincare (Toner, Serum, Moisturizer, Sunscreen, dll)
+                    - Custom Olahraga (Jersey, Jaket, dll)
                   </li>
                   <li>
-                    - Bodycare (Body Lotion, Body Butter, Body Scrub, dll)
+                    - Peralatan Olahraga (Sepatu, Baju, dll)
                   </li>
                   <li>
-                    - Makeup (Foundation, Concealer, Eyeshadow, dll)
+                    - Suplemen (Protein, Vitamin, dll)
                   </li>
                   <li>
-                    - Haircare (Shampoo, Conditioner, Hair Mask, dll)
-                  </li>
-                  <li>
-                  - Bath medicine (Sabun, Shampoo, dll)
+                    - Aksesoris (Topi, Tas, dll)
                   </li>
                 </ul>
                 <a href="#" className="filled-button">
@@ -42,7 +39,7 @@ export default function About() {
             </div>
             <div className="col-md-6">
               <div className="right-image">
-                <img src="/dist/img/banner/banner-4.png" alt />
+                <img src="/dist/img/banner/banner.png" alt />
               </div>
             </div>
           </div>

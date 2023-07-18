@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-md-12">
             <div className="inner-content">
-              <p>Copyright © 2023 Wesbite SF Shop.</p>
+              <p>Copyright © 2023 Wesbite STR-Sport.</p>
             </div>
           </div>
         </div>

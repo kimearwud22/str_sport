@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div id="container">
         <div id="image">
-            <img src="/dist/img/banner/banner.png" alt="football player png"/>
+            <img src="/dist/img/banner/service.png" alt="football player png"/>
         </div>
 
 
