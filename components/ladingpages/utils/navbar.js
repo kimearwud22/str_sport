@@ -72,7 +72,7 @@ export default function Navbar() {
             <div className="">
               <div className="">
                 <img
-                  src="/dist/img/logo/str.PNG"
+                  src="/dist/img/logo/sport.png"
                   className="mt-2 ml-2"
                   style={{ width: "110px", height: "50px" }}
                   alt="slide"
@@ -178,9 +178,9 @@ export default function Navbar() {
         <div className="nav">
           <input type="checkbox" id="nav-check" />
           <div className="nav-header ">
-            <div className="nav-title">
+            <div className="nav-title justify-content-center">
               <img
-                 src="/dist/img/logo/str.PNG"
+                 src="/dist/img/logo/sport.png"
                  className="mt-2 ml-2"
                  style={{ width: "110px", height: "50px" }}
                  alt="slide"

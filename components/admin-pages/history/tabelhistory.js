@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
+import Swal from "sweetalert2";
 
 export default function Tabelhistory() {
   const [data, setData] = useState([]);

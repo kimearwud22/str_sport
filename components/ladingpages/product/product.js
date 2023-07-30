@@ -89,7 +89,7 @@ export default function Product() {
                             <div className="down-content">
                                 <a href="#"><h4>{prod.product_name}</h4></a>
                                 <h5 className='mb-3'>Rp. {prod.product_price}</h5>
-                                <p>{prod.product_desc}</p>
+                                {/* <p>{prod.product_desc}</p> */}
                                 <button type="button" className="btn btn-sm btn-primary" onClick={() => handleAddToCart(prod.id, prod.product_price, prod.product_name)}>Add to Cart</button>
                                 <Link href={`/ladingpage/detail?id=${prod.id}`} >
                                 <button type="button" className="btn btn-sm btn-danger ml-2">Detail</button>

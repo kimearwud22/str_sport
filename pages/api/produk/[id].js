@@ -5,7 +5,7 @@ export default function handler(req, res) {
     if (req.method === 'GET') {
         prisma.product.findFirst({
             where: {
-                id: parseInt(id),
+                id: id,
             },
             select: {
                 id: true,

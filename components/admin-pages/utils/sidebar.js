@@ -73,7 +73,7 @@ export default function Sidebar() {
         <div className="sidebar-brand">
           <Link href="/admin">
             <img
-              src="/dist/img/logo/str.PNG"
+              src="/dist/img/logo/sport.png"
               className=""
               style={{ width: "110px", height: "50px" }}
               alt="slide"

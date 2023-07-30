@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 export default function Editproduct() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
   const [product_img, setImage] = useState(null);
   const [product_name, setName] = useState("");
   const [product_price, setPrice] = useState("");

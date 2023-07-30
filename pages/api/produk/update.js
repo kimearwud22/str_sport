@@ -34,7 +34,7 @@ export default async (req, res) => {
             const id = req.query.id;
             const updateProduct = await prisma.product.update({
                 where: {
-                    id: parseInt(id),
+                    id: id,
                 },
                 data: {
                     product_name: product_name,

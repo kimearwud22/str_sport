@@ -12,7 +12,7 @@ export default function Layout({ children }) {
         <title>Admin | STR-Sport</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="../dist/img/logo/str.PNG" />
+        <link rel="shortcut icon" href="../dist/img/logo/sport.png" />
       </Head>
       <div id="app">
         <div className="main-wrapper main-wrapper-1">
