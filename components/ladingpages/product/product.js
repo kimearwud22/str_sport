@@ -85,7 +85,7 @@ export default function Product() {
                     {data.length > 0 ? data.map((prod, index) => (
                     <div className="col-md-4" key={index}>
                         <div className="product-item">
-                            <a href="#"><img src={prod.product_img} alt /></a>
+                            <a href="#"><img src={prod.product_img} alt style={{width: '100px', height: '150px'}} /></a>
                             <div className="down-content">
                                 <a href="#"><h4>{prod.product_name}</h4></a>
                                 <h5 className='mb-3'>Rp. {prod.product_price}</h5>

@@ -764,16 +764,17 @@ header .navbar {
 
 .product-item {
   border: 1px solid #eee;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .product-item .down-content {
-  padding: 30px;
+  padding: 10px;
   position: relative;
 }
 
 .product-item img {
   width: 100%;
+  margin-top: 10px;
   overflow: hidden;
 }
 
